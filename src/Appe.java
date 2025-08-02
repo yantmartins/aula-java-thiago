@@ -8,6 +8,7 @@ public class Appe
 	    System.out.println("Digite um número: ");
 	    int number = sc.nextInt();
 	    System.out.println("O número digitado foi: " +number);
-
+		sc.close();
 	}
+		
 }
